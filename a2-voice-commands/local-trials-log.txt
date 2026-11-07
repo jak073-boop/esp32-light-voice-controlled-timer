@@ -1,0 +1,162 @@
+MODEL_READY sample_rate_hz=16000 window_samples=16000 window_ms=1000 stride_ms=250 labels=0:go,1:up,2:stop,3:unknown
+NEXT_TRIAL trial_id=1 expected_label=go press GPIO5 when ready
+TRIAL_ARMED trial_id=1 true_label=go
+RECORDING_START trial_id=1
+TRIAL_RESULT trial_id=1 true_label=go recording_ms=1006 rms=0.009521 go=0.8614 up=0.0047 stop=0.0073 unknown=0.1266 argmax_index=0 argmax_label=go dsp_ms=293 classifier_ms=5 inference_wall_ms=298
+NEXT_TRIAL trial_id=2 expected_label=up press GPIO5 when ready
+TRIAL_ARMED trial_id=2 true_label=up
+RECORDING_START trial_id=2
+TRIAL_RESULT trial_id=2 true_label=up recording_ms=1005 rms=0.060106 go=0.1431 up=0.4089 stop=0.3896 unknown=0.0584 argmax_index=1 argmax_label=up dsp_ms=293 classifier_ms=5 inference_wall_ms=298
+NEXT_TRIAL trial_id=3 expected_label=stop press GPIO5 when ready
+TRIAL_ARMED trial_id=3 true_label=stop
+RECORDING_START trial_id=3
+TRIAL_RESULT trial_id=3 true_label=stop recording_ms=1245 rms=0.067231 go=0.0084 up=0.0266 stop=0.9608 unknown=0.0042 argmax_index=2 argmax_label=stop dsp_ms=293 classifier_ms=5 inference_wall_ms=297
+NEXT_TRIAL trial_id=4 expected_label=unknown press GPIO5 when ready
+TRIAL_ARMED trial_id=4 true_label=unknown
+RECORDING_START trial_id=4
+TRIAL_RESULT trial_id=4 true_label=unknown recording_ms=1245 rms=0.012676 go=0.7160 up=0.0309 stop=0.1724 unknown=0.0807 argmax_index=0 argmax_label=go dsp_ms=293 classifier_ms=5 inference_wall_ms=297
+NEXT_TRIAL trial_id=5 expected_label=go press GPIO5 when ready
+TRIAL_ARMED trial_id=5 true_label=go
+RECORDING_START trial_id=5
+TRIAL_RESULT trial_id=5 true_label=go recording_ms=1245 rms=0.011672 go=0.8938 up=0.0091 stop=0.0600 unknown=0.0371 argmax_index=0 argmax_label=go dsp_ms=293 classifier_ms=5 inference_wall_ms=297
+NEXT_TRIAL trial_id=6 expected_label=up press GPIO5 when ready
+TRIAL_ARMED trial_id=6 true_label=up
+RECORDING_START trial_id=6
+TRIAL_RESULT trial_id=6 true_label=up recording_ms=1245 rms=0.067665 go=0.1569 up=0.6371 stop=0.1165 unknown=0.0895 argmax_index=1 argmax_label=up dsp_ms=293 classifier_ms=5 inference_wall_ms=297
+NEXT_TRIAL trial_id=7 expected_label=stop press GPIO5 when ready
+TRIAL_ARMED trial_id=7 true_label=stop
+RECORDING_START trial_id=7
+TRIAL_RESULT trial_id=7 true_label=stop recording_ms=1006 rms=0.023259 go=0.0377 up=0.0016 stop=0.9598 unknown=0.0009 argmax_index=2 argmax_label=stop dsp_ms=293 classifier_ms=5 inference_wall_ms=298
+NEXT_TRIAL trial_id=8 expected_label=unknown press GPIO5 when ready
+TRIAL_ARMED trial_id=8 true_label=unknown
+RECORDING_START trial_id=8
+TRIAL_RESULT trial_id=8 true_label=unknown recording_ms=1006 rms=0.009469 go=0.1810 up=0.0025 stop=0.7944 unknown=0.0220 argmax_index=2 argmax_label=stop dsp_ms=293 classifier_ms=5 inference_wall_ms=298
+NEXT_TRIAL trial_id=9 expected_label=go press GPIO5 when ready
+TRIAL_ARMED trial_id=9 true_label=go
+RECORDING_START trial_id=9
+TRIAL_RESULT trial_id=9 true_label=go recording_ms=1005 rms=0.008337 go=0.9827 up=0.0011 stop=0.0031 unknown=0.0130 argmax_index=0 argmax_label=go dsp_ms=293 classifier_ms=5 inference_wall_ms=298
+NEXT_TRIAL trial_id=10 expected_label=up press GPIO5 when ready
+TRIAL_ARMED trial_id=10 true_label=up
+RECORDING_START trial_id=10
+TRIAL_RESULT trial_id=10 true_label=up recording_ms=1006 rms=0.016697 go=0.3106 up=0.3528 stop=0.2647 unknown=0.0718 argmax_index=1 argmax_label=up dsp_ms=293 classifier_ms=5 inference_wall_ms=298
+NEXT_TRIAL trial_id=11 expected_label=stop press GPIO5 when ready
+TRIAL_ARMED trial_id=11 true_label=stop
+RECORDING_START trial_id=11
+TRIAL_RESULT trial_id=11 true_label=stop recording_ms=1006 rms=0.017986 go=0.2688 up=0.0044 stop=0.7076 unknown=0.0192 argmax_index=2 argmax_label=stop dsp_ms=293 classifier_ms=5 inference_wall_ms=298
+NEXT_TRIAL trial_id=12 expected_label=unknown press GPIO5 when ready
+TRIAL_ARMED trial_id=12 true_label=unknown
+RECORDING_START trial_id=12
+TRIAL_RESULT trial_id=12 true_label=unknown recording_ms=1006 rms=0.048540 go=0.7495 up=0.0002 stop=0.0102 unknown=0.2400 argmax_index=0 argmax_label=go dsp_ms=293 classifier_ms=5 inference_wall_ms=298
+NEXT_TRIAL trial_id=13 expected_label=go press GPIO5 when ready
+TRIAL_ARMED trial_id=13 true_label=go
+RECORDING_START trial_id=13
+TRIAL_RESULT trial_id=13 true_label=go recording_ms=1246 rms=0.015486 go=0.5919 up=0.0234 stop=0.1146 unknown=0.2702 argmax_index=0 argmax_label=go dsp_ms=293 classifier_ms=5 inference_wall_ms=298
+NEXT_TRIAL trial_id=14 expected_label=up press GPIO5 when ready
+TRIAL_ARMED trial_id=14 true_label=up
+RECORDING_START trial_id=14
+TRIAL_RESULT trial_id=14 true_label=up recording_ms=1246 rms=0.019917 go=0.1334 up=0.4338 stop=0.3902 unknown=0.0426 argmax_index=1 argmax_label=up dsp_ms=293 classifier_ms=5 inference_wall_ms=298
+NEXT_TRIAL trial_id=15 expected_label=stop press GPIO5 when ready
+TRIAL_ARMED trial_id=15 true_label=stop
+RECORDING_START trial_id=15
+TRIAL_RESULT trial_id=15 true_label=stop recording_ms=1005 rms=0.008143 go=0.0808 up=0.0387 stop=0.8468 unknown=0.0337 argmax_index=2 argmax_label=stop dsp_ms=293 classifier_ms=5 inference_wall_ms=298
+NEXT_TRIAL trial_id=16 expected_label=unknown press GPIO5 when ready
+TRIAL_ARMED trial_id=16 true_label=unknown
+RECORDING_START trial_id=16
+TRIAL_RESULT trial_id=16 true_label=unknown recording_ms=1005 rms=0.007801 go=0.6273 up=0.0032 stop=0.0085 unknown=0.3611 argmax_index=0 argmax_label=go dsp_ms=293 classifier_ms=5 inference_wall_ms=299
+NEXT_TRIAL trial_id=17 expected_label=go press GPIO5 when ready
+TRIAL_ARMED trial_id=17 true_label=go
+RECORDING_START trial_id=17
+TRIAL_RESULT trial_id=17 true_label=go recording_ms=1005 rms=0.009104 go=0.9809 up=0.0007 stop=0.0016 unknown=0.0168 argmax_index=0 argmax_label=go dsp_ms=293 classifier_ms=5 inference_wall_ms=298
+NEXT_TRIAL trial_id=18 expected_label=up press GPIO5 when ready
+TRIAL_ARMED trial_id=18 true_label=up
+RECORDING_START trial_id=18
+TRIAL_RESULT trial_id=18 true_label=up recording_ms=1246 rms=0.059628 go=0.0811 up=0.5135 stop=0.2969 unknown=0.1086 argmax_index=1 argmax_label=up dsp_ms=293 classifier_ms=5 inference_wall_ms=298
+NEXT_TRIAL trial_id=19 expected_label=stop press GPIO5 when ready
+TRIAL_ARMED trial_id=19 true_label=stop
+RECORDING_START trial_id=19
+TRIAL_RESULT trial_id=19 true_label=stop recording_ms=1006 rms=0.049250 go=0.0032 up=0.0028 stop=0.9935 unknown=0.0005 argmax_index=2 argmax_label=stop dsp_ms=293 classifier_ms=5 inference_wall_ms=298
+NEXT_TRIAL trial_id=20 expected_label=unknown press GPIO5 when ready
+TRIAL_ARMED trial_id=20 true_label=unknown
+RECORDING_START trial_id=20
+TRIAL_RESULT trial_id=20 true_label=unknown recording_ms=1005 rms=0.010062 go=0.3415 up=0.0482 stop=0.0158 unknown=0.5945 argmax_index=3 argmax_label=unknown dsp_ms=293 classifier_ms=5 inference_wall_ms=298
+NEXT_TRIAL trial_id=21 expected_label=go press GPIO5 when ready
+TRIAL_ARMED trial_id=21 true_label=go
+RECORDING_START trial_id=21
+TRIAL_RESULT trial_id=21 true_label=go recording_ms=1245 rms=0.010219 go=0.5297 up=0.0485 stop=0.2933 unknown=0.1285 argmax_index=0 argmax_label=go dsp_ms=293 classifier_ms=5 inference_wall_ms=297
+NEXT_TRIAL trial_id=22 expected_label=up press GPIO5 when ready
+TRIAL_ARMED trial_id=22 true_label=up
+RECORDING_START trial_id=22
+TRIAL_RESULT trial_id=22 true_label=up recording_ms=1006 rms=0.028865 go=0.0950 up=0.6209 stop=0.2124 unknown=0.0718 argmax_index=1 argmax_label=up dsp_ms=293 classifier_ms=5 inference_wall_ms=298
+NEXT_TRIAL trial_id=23 expected_label=stop press GPIO5 when ready
+TRIAL_ARMED trial_id=23 true_label=stop
+RECORDING_START trial_id=23
+TRIAL_RESULT trial_id=23 true_label=stop recording_ms=1005 rms=0.011684 go=0.2079 up=0.0138 stop=0.7306 unknown=0.0477 argmax_index=2 argmax_label=stop dsp_ms=293 classifier_ms=5 inference_wall_ms=298
+NEXT_TRIAL trial_id=24 expected_label=unknown press GPIO5 when ready
+TRIAL_ARMED trial_id=24 true_label=unknown
+RECORDING_START trial_id=24
+TRIAL_RESULT trial_id=24 true_label=unknown recording_ms=1245 rms=0.010669 go=0.8418 up=0.0589 stop=0.0102 unknown=0.0890 argmax_index=0 argmax_label=go dsp_ms=293 classifier_ms=5 inference_wall_ms=297
+NEXT_TRIAL trial_id=25 expected_label=go press GPIO5 when ready
+TRIAL_ARMED trial_id=25 true_label=go
+RECORDING_START trial_id=25
+TRIAL_RESULT trial_id=25 true_label=go recording_ms=1245 rms=0.005301 go=0.9214 up=0.0017 stop=0.0250 unknown=0.0519 argmax_index=0 argmax_label=go dsp_ms=293 classifier_ms=5 inference_wall_ms=297
+NEXT_TRIAL trial_id=26 expected_label=up press GPIO5 when ready
+TRIAL_ARMED trial_id=26 true_label=up
+RECORDING_START trial_id=26
+TRIAL_RESULT trial_id=26 true_label=up recording_ms=1005 rms=0.056953 go=0.2157 up=0.2672 stop=0.2346 unknown=0.2824 argmax_index=3 argmax_label=unknown dsp_ms=293 classifier_ms=5 inference_wall_ms=298
+NEXT_TRIAL trial_id=27 expected_label=stop press GPIO5 when ready
+TRIAL_ARMED trial_id=27 true_label=stop
+RECORDING_START trial_id=27
+TRIAL_RESULT trial_id=27 true_label=stop recording_ms=1005 rms=0.010881 go=0.1904 up=0.0291 stop=0.7230 unknown=0.0575 argmax_index=2 argmax_label=stop dsp_ms=293 classifier_ms=5 inference_wall_ms=298
+NEXT_TRIAL trial_id=28 expected_label=unknown press GPIO5 when ready
+TRIAL_ARMED trial_id=28 true_label=unknown
+RECORDING_START trial_id=28
+TRIAL_RESULT trial_id=28 true_label=unknown recording_ms=1006 rms=0.020882 go=0.7709 up=0.0035 stop=0.0047 unknown=0.2209 argmax_index=0 argmax_label=go dsp_ms=293 classifier_ms=5 inference_wall_ms=297
+NEXT_TRIAL trial_id=29 expected_label=go press GPIO5 when ready
+TRIAL_ARMED trial_id=29 true_label=go
+RECORDING_START trial_id=29
+TRIAL_RESULT trial_id=29 true_label=go recording_ms=1005 rms=0.011269 go=0.9244 up=0.0006 stop=0.0049 unknown=0.0702 argmax_index=0 argmax_label=go dsp_ms=293 classifier_ms=5 inference_wall_ms=298
+NEXT_TRIAL trial_id=30 expected_label=up press GPIO5 when ready
+TRIAL_ARMED trial_id=30 true_label=up
+RECORDING_START trial_id=30
+TRIAL_RESULT trial_id=30 true_label=up recording_ms=1006 rms=0.006761 go=0.3894 up=0.3879 stop=0.1274 unknown=0.0952 argmax_index=0 argmax_label=go dsp_ms=293 classifier_ms=5 inference_wall_ms=298
+NEXT_TRIAL trial_id=31 expected_label=stop press GPIO5 when ready
+TRIAL_ARMED trial_id=31 true_label=stop
+RECORDING_START trial_id=31
+TRIAL_RESULT trial_id=31 true_label=stop recording_ms=1006 rms=0.020618 go=0.6235 up=0.0353 stop=0.3016 unknown=0.0396 argmax_index=0 argmax_label=go dsp_ms=293 classifier_ms=5 inference_wall_ms=298
+NEXT_TRIAL trial_id=32 expected_label=unknown press GPIO5 when ready
+TRIAL_ARMED trial_id=32 true_label=unknown
+RECORDING_START trial_id=32
+TRIAL_RESULT trial_id=32 true_label=unknown recording_ms=1245 rms=0.059094 go=0.2257 up=0.1018 stop=0.0212 unknown=0.6513 argmax_index=3 argmax_label=unknown dsp_ms=293 classifier_ms=5 inference_wall_ms=297
+NEXT_TRIAL trial_id=33 expected_label=go press GPIO5 when ready
+TRIAL_ARMED trial_id=33 true_label=go
+RECORDING_START trial_id=33
+TRIAL_RESULT trial_id=33 true_label=go recording_ms=1006 rms=0.015710 go=0.5376 up=0.0346 stop=0.2082 unknown=0.2196 argmax_index=0 argmax_label=go dsp_ms=293 classifier_ms=5 inference_wall_ms=298
+NEXT_TRIAL trial_id=34 expected_label=up press GPIO5 when ready
+TRIAL_ARMED trial_id=34 true_label=up
+RECORDING_START trial_id=34
+TRIAL_RESULT trial_id=34 true_label=up recording_ms=1246 rms=0.015810 go=0.2004 up=0.1923 stop=0.4627 unknown=0.1446 argmax_index=2 argmax_label=stop dsp_ms=293 classifier_ms=5 inference_wall_ms=298
+NEXT_TRIAL trial_id=35 expected_label=stop press GPIO5 when ready
+TRIAL_ARMED trial_id=35 true_label=stop
+RECORDING_START trial_id=35
+TRIAL_RESULT trial_id=35 true_label=stop recording_ms=1245 rms=0.015166 go=0.0047 up=0.0012 stop=0.9921 unknown=0.0019 argmax_index=2 argmax_label=stop dsp_ms=293 classifier_ms=5 inference_wall_ms=297
+NEXT_TRIAL trial_id=36 expected_label=unknown press GPIO5 when ready
+TRIAL_ARMED trial_id=36 true_label=unknown
+RECORDING_START trial_id=36
+TRIAL_RESULT trial_id=36 true_label=unknown recording_ms=1005 rms=0.007853 go=0.9335 up=0.0010 stop=0.0029 unknown=0.0626 argmax_index=0 argmax_label=go dsp_ms=293 classifier_ms=5 inference_wall_ms=298
+NEXT_TRIAL trial_id=37 expected_label=go press GPIO5 when ready
+TRIAL_ARMED trial_id=37 true_label=go
+RECORDING_START trial_id=37
+TRIAL_RESULT trial_id=37 true_label=go recording_ms=1005 rms=0.014379 go=0.9518 up=0.0013 stop=0.0072 unknown=0.0397 argmax_index=0 argmax_label=go dsp_ms=293 classifier_ms=5 inference_wall_ms=298
+NEXT_TRIAL trial_id=38 expected_label=up press GPIO5 when ready
+TRIAL_ARMED trial_id=38 true_label=up
+RECORDING_START trial_id=38
+TRIAL_RESULT trial_id=38 true_label=up recording_ms=1006 rms=0.064452 go=0.1056 up=0.5775 stop=0.2451 unknown=0.0718 argmax_index=1 argmax_label=up dsp_ms=293 classifier_ms=5 inference_wall_ms=298
+NEXT_TRIAL trial_id=39 expected_label=stop press GPIO5 when ready
+TRIAL_ARMED trial_id=39 true_label=stop
+RECORDING_START trial_id=39
+TRIAL_RESULT trial_id=39 true_label=stop recording_ms=1245 rms=0.057729 go=0.0602 up=0.1250 stop=0.7775 unknown=0.0374 argmax_index=2 argmax_label=stop dsp_ms=293 classifier_ms=5 inference_wall_ms=297
+NEXT_TRIAL trial_id=40 expected_label=unknown press GPIO5 when ready
+TRIAL_ARMED trial_id=40 true_label=unknown
+RECORDING_START trial_id=40
+TRIAL_RESULT trial_id=40 true_label=unknown recording_ms=1245 rms=0.014398 go=0.7360 up=0.0047 stop=0.0084 unknown=0.2509 argmax_index=0 argmax_label=go dsp_ms=293 classifier_ms=5 inference_wall_ms=297
+NEXT_TRIAL trial_id=41 expected_label=go press GPIO5 when ready

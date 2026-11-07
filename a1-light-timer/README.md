@@ -1,8 +1,8 @@
-# Light-Controlled Gesture Timer
+# A1: Light-Controlled Gesture Timer
 
 A countdown timer on a Seeed XIAO ESP32-S3 Sense that you control by covering a light sensor with your hand. Taps add time, a medium hold starts the countdown, and a long hold cancels. It calibrates itself to the room's lighting at every startup, so it doesn't rely on a fixed brightness threshold.
 
-![Add time, then count down](media/add-then-countdown.gif)
+![Timer states: STANDBY, ADDING, COUNTDOWN](media/timer-states.jpg)
 
 ## What it does
 
@@ -21,6 +21,8 @@ A countdown timer on a Seeed XIAO ESP32-S3 Sense that you control by covering a 
 5. **Runs a four-state timer:** STANDBY → ADDING (three quick taps, each gap ≤ 1200 ms) → COUNTDOWN (commit) → DONE (2 s alert) → STANDBY. A cancel from ADDING or COUNTDOWN returns to STANDBY, and each extra tap in ADDING adds 5 s.
 
 Everything is non-blocking: timing uses rollover-safe `millis()` arithmetic instead of `delay()`, so the sensor keeps being read while the timer runs.
+
+![Add time, then count down](media/add-then-countdown.gif)
 
 ## State machines
 
@@ -65,8 +67,6 @@ Both spans clear the 600-count minimum, and because thresholds are set relative 
 ## Warm-up: night-light controller
 
 Before the timer, I built a three-mode controller (OFF / AUTO / ON) cycled by a debounced pushbutton. In AUTO, the LED's PWM brightness rises as the room gets darker, mapped linearly from measured bright (2645) and dark (780) readings and clamped at both ends. The building blocks (non-blocking scheduling, debouncing, map-and-clamp, and an enum/switch state machine) carried straight into the timer.
-
-![Night-light controller in OFF, AUTO, and ON](media/lab-controller.gif)
 
 ## Tools
 
