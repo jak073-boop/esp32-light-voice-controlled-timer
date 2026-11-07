@@ -1,4 +1,4 @@
-# A2: Voice Commands with On-Device Keyword Spotting
+# Voice Commands with On-Device Keyword Spotting
 
 The [A1 timer](../a1-light-timer/), now controlled by voice. Say **"up"** to add 10 s, **"go"** to start the countdown, and **"stop"** to clear it. A small speech model runs on the ESP32-S3 itself, with no cloud or phone involved, and a C++ decision policy I wrote turns its noisy output into one clean command per spoken word.
 
