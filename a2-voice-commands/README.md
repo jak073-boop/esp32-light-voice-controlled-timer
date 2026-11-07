@@ -4,7 +4,11 @@ The [A1 timer](../a1-light-timer/), now controlled by voice. Say **"up"** to add
 
 ![Timer states: STANDBY, ADDING, COUNTDOWN](media/voice-timer-states.jpg)
 
-▶️ **[Watch the demo (58 s, with sound)](media/voice-timer-demo.mp4)**: up, up, go, an ignored sentence, stop, and rearming between repeated commands.
+
+
+https://github.com/user-attachments/assets/3ae039ac-7c42-4512-849e-4dba806c0965
+
+
 
 ## How it works
 
