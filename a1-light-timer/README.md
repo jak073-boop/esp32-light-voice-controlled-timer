@@ -1,4 +1,4 @@
-# A1: Light-Controlled Gesture Timer
+# Light-Controlled Gesture Timer
 
 A countdown timer on a Seeed XIAO ESP32-S3 Sense that you control by covering a light sensor with your hand. Taps add time, a medium hold starts the countdown, and a long hold cancels. It calibrates itself to the room's lighting at every startup, so it doesn't rely on a fixed brightness threshold.
 
