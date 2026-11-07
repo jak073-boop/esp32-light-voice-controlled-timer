@@ -4,7 +4,11 @@ A countdown timer on a Seeed XIAO ESP32-S3 Sense, built in two stages: first con
 
 ![Timer states: STANDBY, ADDING, COUNTDOWN](a2-voice-commands/media/voice-timer-states.jpg)
 
-▶️ **[Watch the voice demo (58 s, with sound)](a2-voice-commands/media/voice-timer-demo.mp4)**
+
+
+https://github.com/user-attachments/assets/a7bdf088-a06f-4376-9ed7-a8e3b965b493
+
+
 
 | Part | What it adds |
 |---|---|
