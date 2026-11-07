@@ -8,8 +8,8 @@ A countdown timer on a Seeed XIAO ESP32-S3 Sense, built in two stages: first con
 
 | Part | What it adds |
 |---|---|
-| [**A1: Light-controlled gesture timer**](a1-light-timer/) | Self-calibrating light sensing, tap/hold gesture detection, and a non-blocking four-state timer |
-| [**A2: Voice commands**](a2-voice-commands/) | On-device keyword spotting feeding a C++ armed/latched command policy (0.90 accept threshold at 97% precision), driving the same timer |
+| [**Light-controlled gesture timer**](a1-light-timer/) | Self-calibrating light sensing, tap/hold gesture detection, and a non-blocking four-state timer |
+| [**Voice commands**](a2-voice-commands/) | On-device keyword spotting feeding a C++ armed/latched command policy (0.90 accept threshold at 97% precision), driving the same timer |
 
 **Hardware:** Seeed XIAO ESP32-S3 Sense (onboard microphone), GL5528 photoresistor, LEDs, breadboard
 **Tools:** C++ (Arduino framework), Arduino IDE, Python / Google Colab
