@@ -21,4 +21,6 @@ https://github.com/user-attachments/assets/a7bdf088-a06f-4376-9ed7-a8e3b965b493
 **Results and Limitations:**
 Command policy behaves correctly given the model's confidence scores and it made the intended decision in every test including debounce and latch cases. Overall reliability was limited by the speech-recognition model itself and not from my code: 1 of the STOP attempts was classified as GO and 6 of 10 non-command attempts triggered a false command. Tests were designed for a quiet room, but mine were recorded with more background noise than intended which likely increased false triggers. Retraining the model with more background and noise samples can improve results and raising confidence threshold can also reduce false triggers but at the cost of more missed commands. 
 
+**Next Step**: Rerunning same tests in a quiet room as intended and find how much the false-trigger rate came from background noise. Then retraining the model with more background noise samples and rerun the same tests to compare the false-trigger rates
+
 Built for ECE 116 at UC San Diego.
