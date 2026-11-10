@@ -18,7 +18,7 @@ https://github.com/user-attachments/assets/a7bdf088-a06f-4376-9ed7-a8e3b965b493
 **Hardware:** Seeed XIAO ESP32-S3 Sense (onboard microphone), GL5528 photoresistor, LEDs, breadboard
 **Tools:** C++ (Arduino framework), Arduino IDE, Python / Google Colab
 
-Results and Limitations:
+**Results and Limitations:**
 Command policy behaves correctly given the model's confidence scores and it made the intended decision in every test including debounce and latch cases. Overall reliability was limited by the speech-recognition model itself and not from my code: 1 of the STOP attempts was classified as GO and 6 of 10 non-command attempts triggered a false command. Tests were designed for a quiet room, but mine were recorded with more background noise than intended which likely increased false triggers. Retraining the model with more background and noise samples can improve results and raising confidence threshold can also reduce false triggers but at the cost of more missed commands. 
 
 Built for ECE 116 at UC San Diego.
